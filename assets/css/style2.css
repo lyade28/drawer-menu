@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Lato', Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: blanchedalmond;
+    font-family: 'Lato', sans-serif;
+    /* Défaut */
+
+
+}
+
+.Content {
+  
+    position: relative;
+    /* Définit un contexte pour la position absolue */
+    width: 100%;
+    /* Exemple de largeur */
+    height: 100px;
+    /* Exemple de hauteur */
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: absolute;
+    /* Pour permettre le chevauchement */
+    top: 50px;
+    /* Centre vertical */
+    left: 50%;
+    /* Centre horizontal */
+    width: 90%;
+    /* Exemple de taille */
+    height: 80px;
+    /* Exemple de taille */
+    transform: translate(-50%, -50%) skew(-14deg);
+    /* Centre et applique le skew */
+    /* background-color: red; */
+    z-index: 1;
+    /* Assure que .box1 est sous .box2 si nécessaire */
+    background-color: #00B86D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box1 h1 {
+    font-size: 30spx;
+    color: white;
+    margin-top: 20px;
+}
+
+.box2 h1 {
+    font-size: 30spx;
+    color: #00B86D;
+    margin-top: 20px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: absolute;
+    /* Pour permettre le chevauchement */
+    top: 60px;
+    /* Ajustement vertical relatif à .box1 */
+    left: 50%;
+    /* Centre horizontal */
+    width: 60%;
+    /* Exemple de taille */
+    height: 100px;
+    /* Exemple de taille */
+    transform: translate(-50%, -50%) skew(-14deg);
+    /* Centre et applique le skew */
+    z-index: 2;
+    /* box2 superpose box1 */
+    height: 80px;
+    background-color: white;
+    box-Shadow: '0px 4px 4px rgba(0, 184, 109, 0.10)'
+}
+
+
+.Content1 {
+    margin-top: 20px;
+    position: relative;
+    /* Définit un contexte pour la position absolue */
+    width: 100%;
+    /* Exemple de largeur */
+    height: 100px;
+    /* Exemple de hauteur */
+}
+
+
+
+
+
+.box-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: absolute;
+    /* Pour permettre le chevauchement */
+    top: 60px;
+    /* Ajustement vertical relatif à .box1 */
+    left: 60%;
+    /* Centre horizontal */
+    width: 60%;
+    /* Exemple de taille */
+    height: 100px;
+    /* Exemple de taille */
+    transform: translate(-50%, -50%) skew(-14deg);
+    /* Centre et applique le skew */
+    z-index: 2;
+    /* box2 superpose box1 */
+    height: 80px;
+    background-color: white;
+    box-Shadow: '0px 4px 4px rgba(0, 184, 109, 0.10)'
+}
+
+
+.box-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: absolute;
+    /* Pour permettre le chevauchement */
+    top: 50px;
+    /* Centre vertical */
+    left: 50%;
+    /* Centre horizontal */
+    width: 80%;
+    /* Exemple de taille */
+    height: 80px;
+    /* Exemple de taille */
+    transform: translate(-50%, -50%) skew(-14deg);
+    /* Centre et applique le skew */
+    /* background-color: red; */
+    z-index: 1;
+    /* Assure que .box1 est sous .box2 si nécessaire */
+    background-color: #00B86D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.box-2l {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    position: absolute;
+    /* Pour permettre le chevauchement */
+    top: 60px;
+    /* Ajustement vertical relatif à .box1 */
+    left: 60%;
+    /* Centre horizontal */
+    width: 60%;
+    /* Exemple de taille */
+    height: 100px;
+    /* Exemple de taille */
+    transform: translate(-50%, -50%) skew(-14deg);
+    /* Centre et applique le skew */
+    z-index: 2;
+    /* box2 superpose box1 */
+    height: 80px;
+    background-color: white;
+    box-Shadow: '0px 4px 4px rgba(0, 184, 109, 0.10)'
+}
+
+
+.box-1l {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: absolute;
+    /* Pour permettre le chevauchement */
+    top: 50px;
+    /* Centre vertical */
+    left: 50%;
+    /* Centre horizontal */
+    width: 80%;
+    /* Exemple de taille */
+    height: 80px;
+    /* Exemple de taille */
+    transform: translate(-50%, -50%) skew(-14deg);
+    /* Centre et applique le skew */
+    /* background-color: red; */
+    z-index: 1;
+    /* Assure que .box1 est sous .box2 si nécessaire */
+    background-color: #00B86D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.box-1r {
+    display: flex;
+    justify-content: end;
+    padding: 0 20px;
+    position: absolute;
+    /* Pour permettre le chevauchement */
+    top: 50px;
+    /* Centre vertical */
+    left: 50%;
+    /* Centre horizontal */
+    width: 80%;
+    /* Exemple de taille */
+    height: 80px;
+    /* Exemple de taille */
+    transform: translate(-50%, -50%) skew(-14deg);
+    /* Centre et applique le skew */
+    /* background-color: red; */
+    z-index: 1;
+    /* Assure que .box1 est sous .box2 si nécessaire */
+    background-color: #00B86D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box-2r {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    position: absolute;
+    /* Pour permettre le chevauchement */
+    top: 60px;
+    /* Ajustement vertical relatif à .box1 */
+    left: 41%;
+    /* Centre horizontal */
+    width: 60%;
+    /* Exemple de taille */
+    height: 100px;
+    /* Exemple de taille */
+    transform: translate(-50%, -50%) skew(-14deg);
+    /* Centre et applique le skew */
+    z-index: 2;
+    /* box2 superpose box1 */
+    height: 80px;
+    background-color: white;
+    box-Shadow: '0px 4px 4px rgba(0, 184, 109, 0.10)'
+}
+
+.box-1l h1 {
+    font-size: 30spx;
+    color: white;
+    margin-top: 20px;
+}
+
+.box-1r h1 {
+    font-size: 30spx;
+    color: white;
+    margin-top: 20px;
+}
+
+.box-2l h1 {
+    font-size: 30spx;
+    color: #00B86D;
+    margin-top: 20px;
+}
+
+.box-2r h1 {
+    font-size: 30spx;
+    color: #00B86D;
+    margin-top: 20px;
+}
+
+.all {
+    display: flex;
+}
+
+.head {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: #00B86D;
+    border-bottom-right-radius: 70%;
+    border-bottom-left-radius: 70%;
+    padding: 10px 40px;
+}
+
+.user-content{
+    height: 200px;
+    width: 200px;
+    background-color: #00B86D;;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-Shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 10px dotted #efcc4f;
+
+}
+.use{
+    height: 185px;
+    width: 185px;
+    border-radius: 100%;
+
+}
+.use img{
+width: 100%;
+height: 100%;
+overflow: hidden;
+border-radius: 100%;
+box-sizing: cover;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
